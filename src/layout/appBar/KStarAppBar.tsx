@@ -10,6 +10,7 @@ import {
   AppBarStyles,
   GridRootStyles,
   LogoRootStyles,
+  LogoStyles,
   RootStyles,
   TitleStyles,
   UserAvatarStyles,
@@ -35,7 +36,11 @@ const KStarAppBar: React.FC = () => {
         >
           <Grid
             item
-            xs={4}
+            xs={3}
+            sm={3}
+            md={3}
+            lg={4}
+            xl={4}
             container
             justifyContent="flex-start"
             alignItems="center"
@@ -44,19 +49,21 @@ const KStarAppBar: React.FC = () => {
             <a
               href="https://www.ksam.com/"
             >
-              <img 
+              <Box 
+                component="img"
                 src="https://www.ksam.com/wp-content/themes/ksam/dist/images/kstar-logo.png"
                 alt="K-Star Logo" 
-                style={{
-                  height: '28px',
-                  width: '110.5px',
-                }} 
+                sx={LogoStyles}
               />
             </a>
           </Grid>
           <Grid
             item
-            xs={4}
+            xs={6}
+            sm={6}
+            md={6}
+            lg={4}
+            xl={4}
             container
             justifyContent="center"
             alignItems="center"
@@ -69,7 +76,11 @@ const KStarAppBar: React.FC = () => {
           </Grid>
           <Grid
             item
-            xs={4}
+            xs={3}
+            sm={3}
+            md={3}
+            lg={4}
+            xl={4}
             container
             justifyContent="flex-end"
             alignItems="center"

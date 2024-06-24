@@ -21,9 +21,23 @@ Nivo can be found under directory graphs named ScatterPlotGraphsComponent. It is
 
 ## Areas for improvement
 
-The first area where there could be improvement in mobile view, find a better way to present the table. As it could be difficult for user to know there are more columns.
-Another improve that can be found inside the mobile and desktop view. Is apply more styling to the graph. Possible put a legend for each town and a color of dots each town.
-Continue to work on dashboard, Add additional filters along with several different graphs user could toggle between.
-On the dashboard the Analytics is highlighted but more development is needed if user clicked on Home. That should then be highlighted and no longer Analytics. Since no development has been made for home it redirects to KKR website.
-Additional development could be down with a drop down on the user avatar that included a settings. Maybe include dark theme along with other info for user.
-One thing I would have really like to add was if user clicks on property on the table or on the graph. The property on graph would be highlighted  or the table row would be selected. This feature would improve user experience.
+1. Make improvement to mobile view, find a better way to present the table. As it could be difficult for user to know there are more columns.
+
+2. Apply more styling to the graph. Possible put a legend for each town and a color of dots to match.
+
+3. On the dashboard the Analytics is highlighted but more development is needed if user clicked on Home. That should then be highlighted and no longer Analytics.
+
+4. When selecting property on the table, have that property highlighted on graph.
+
+5. In mobile view, it's hard to click the map points for the tooltip pop up. Make updates there.
+
+## Needed for production ready
+1. Write test cases to ensure component work as expected
+2. Add SSO authentication
+3. Connect to real API
+4. Update styles to match company styling
+5. Add more graphs and filters
+6. Include Light and Dark themes
+
+## Web link:
+https://dash-board-assignment.vercel.app/

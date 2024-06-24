@@ -20,6 +20,15 @@ export const LogoRootStyles = {
   paddingLeft: '16px',
 };
 
+export const LogoStyles = {
+  height: '28px',
+  width: '110.5px',
+  '@media only screen and (max-width: 600px)': {
+    height: '21px',
+    width: '82.875px',
+  },
+}
+
 export const RootStyles = {
   display: 'block',
 };
@@ -32,7 +41,7 @@ export const TitleStyles = {
   textTransform: 'uppercase',
   letterSpacing: '.1em',
   '@media only screen and (max-width: 600px)': {
-    fontSize: '16px',
+    fontSize: '12px',
   },
 };
 
@@ -40,6 +49,10 @@ export const UserAvatarStyles = {
   height: '45px',
   width: '45px',
   borderRadius: '50%',
+  '@media only screen and (max-width: 600px)': {
+    height: '30px',
+    width: '30px',
+  },
 };
 
 export const UserNameStyles = {
@@ -47,7 +60,7 @@ export const UserNameStyles = {
   color: '#212322',
   fontSize: '20px',
   paddingRight: '8px',
-  '@media only screen and (max-width: 780px)': {
+  '@media only screen and (max-width: 1036px)': {
     display: 'none',
   },
 };
